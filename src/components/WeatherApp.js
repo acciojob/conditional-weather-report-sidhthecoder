@@ -11,11 +11,11 @@ const WeatherApp = () => {
   const color = weatherData.temperature > threshold ? "red" : "blue";
 
   return (
-    <div className="weather-container">
+    <span className="weather-container">
       <h2>Weather App</h2>
-      <p style={{ color }}>Temperature: {weatherData.temperature}°C</p>
+      <p style={{ color }}>Temperature: {weatherData.temperature}</p>
       <p>Weather Conditions: {weatherData.conditions}</p>
-    </div>
+    </span>
   );
 };
 

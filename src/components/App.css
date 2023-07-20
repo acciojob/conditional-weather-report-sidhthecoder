@@ -8,7 +8,6 @@
     margin: 10px;
   }
   
-  /* Define the color styles for the temperature */
   p[style*="red"] {
     color: red;
   }
