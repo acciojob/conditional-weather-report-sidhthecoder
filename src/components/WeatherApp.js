@@ -8,7 +8,7 @@ const WeatherApp = () => {
   };
 
   const threshold = 20;
-  const color = weatherData.temperature > threshold ? "red" : "blue";
+  const color = weatherData.temperature > threshold ? "red":"blue";
 
   return (
     <span className="weather-container">

@@ -7,11 +7,10 @@
     font-size: 20px;
     margin: 10px;
   }
-  
-  p[style*="red"] {
-    color: rgb(0,0,0);
+  p.blue{
+    color:blue;
   }
   
-  p[style*="blue"] {
-    color: blue;
+  p.red {
+    color:rgb(255,0,0);
   }
